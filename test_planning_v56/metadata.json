@@ -1,0 +1,101 @@
+{
+    "id": "db1aed75-0841-45bc-b842-887f27843974",
+    "name": "test_planning_v56",
+    "description": "Detailed specification for generating a Project using Generative AI",
+    "schema": "2.0",
+    "owner": "Nuvepro",
+    "created_by": "ThanushreeS",
+    "created_on": "2026-02-27T20:31:30.943232",
+    "modified_by": "ThanushreeS",
+    "modified_on": "2026-02-27T20:32:09.668293",
+    "published_on": "",
+    "category": "",
+    "version": "test_planning_v56",
+    "locale": "en_US",
+    "plan_spec": {
+        "tech_domain": "Backend Development",
+        "tech_subdomain": "Python Core",
+        "application_domain": "General",
+        "application_subdomain": "hello_world_application",
+        "target_audience": "Beginner Python developers and learners",
+        "difficulty_level": "Beginner",
+        "time_constraints": "Less than 30 minutes",
+        "prerequisites": [
+            "Basic understanding of what a programming language is",
+            "Basic familiarity with running command line commands"
+        ],
+        "scope": [
+            "Writing and executing Python scripts",
+            "Understanding Python syntax for output",
+            "Working with development environments or basic editors"
+        ],
+        "feature_set": [
+            "Simple program that prints 'Hello, World!' to the console"
+        ],
+        "problem_statement_style": "scenario",
+        "projects": [
+            {
+                "project_name": "hello_world_application_python_core",
+                "tech_domain": "Backend Development",
+                "tech_subdomain": "Python Core",
+                "skill": "python_core",
+                "tech_stack": {
+                    "language": {
+                        "name": "Python",
+                        "version": "3.8+"
+                    },
+                    "framework": {
+                        "name": "None",
+                        "description": "No frameworks required, plain Python"
+                    }
+                },
+                "testing": {
+                    "unit_testing": null,
+                    "integration_testing": null,
+                    "end_to_end_or_api_testing": null
+                },
+                "scope": {
+                    "python_basics": [
+                        "Understanding Python's print function",
+                        "Script execution"
+                    ]
+                },
+                "prerequisites": [
+                    "Install Python 3.8 or above",
+                    "Access to a text editor (e.g., VS Code, Sublime, Notepad++)",
+                    "Ability to run terminal/command prompt"
+                ],
+                "runtime_environment": {
+                    "IDE": "Visual Studio Code (recommended) or any text editor",
+                    "OS Requirements": "Windows 10+, macOS Monterey+, Ubuntu 20.04+"
+                },
+                "learning_outcomes": [
+                    "Able to write and execute a Python script",
+                    "Understands basic syntax and output in Python",
+                    "Familiarity with the development workflow"
+                ],
+                "feature_set": [
+                    "Print 'Hello, World!' to standard output"
+                ],
+                "api_documentation": null,
+                "output_resource_type": "code",
+                "dependency_type": null
+            }
+        ],
+        "acceptance_criteria": [
+            "Script runs without errors in any environment with Python 3.8+ installed",
+            "Script prints exactly: Hello, World!"
+        ],
+        "deliverables": [
+            "hello.py script with the required print statement"
+        ],
+        "need_research": "False",
+        "learning_outcomes": [
+            "Familiarity with creating, saving, and running a basic Python script",
+            "Understanding of simple Python syntax and program execution"
+        ],
+        "learning_style": "guided",
+        "assessment_type": null,
+        "user_prompt": "A simple hello world application in python"
+    }
+}
