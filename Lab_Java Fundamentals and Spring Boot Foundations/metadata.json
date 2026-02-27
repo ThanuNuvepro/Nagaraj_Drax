@@ -1,0 +1,173 @@
+{
+    "id": "d96faed7-ab01-491a-8f7b-889c8b5f7907",
+    "name": "Lab_Java Fundamentals and Spring Boot Foundations",
+    "description": "Detailed specification for generating a Project using Generative AI",
+    "schema": "2.0",
+    "owner": "Nuvepro",
+    "created_by": "Nuvepro",
+    "created_on": "2026-02-27T22:12:47.360453",
+    "modified_by": "Nuvepro",
+    "modified_on": "2026-02-27T22:13:39.359215",
+    "published_on": "",
+    "category": "",
+    "version": "Lab_Java Fundamentals and Spring Boot Foundations",
+    "locale": "en_US",
+    "plan_spec": {
+        "tech_domain": "Backend Development",
+        "tech_subdomain": "Java Fundamentals and Spring Boot Foundations",
+        "application_domain": "Education",
+        "application_subdomain": "lab_generation",
+        "target_audience": "Beginners and intermediate developers aiming to learn Java and Spring Boot",
+        "difficulty_level": "Beginner",
+        "time_constraints": "3-5 hours",
+        "prerequisites": [
+            "Basic programming knowledge (any language)",
+            "Familiarity with general computer operations",
+            "Java JDK installed",
+            "Optional: Knowledge of object-oriented programming principles"
+        ],
+        "scope": [
+            "Java syntax and core concepts",
+            "Object-Oriented Programming (OOP)",
+            "Data types, control structures, and loops",
+            "Exception handling",
+            "Collections framework",
+            "Introduction to build tools (Maven/Gradle)",
+            "Introduction to Spring Boot",
+            "Dependency injection and IoC",
+            "RESTful API basics",
+            "Spring Boot project structure",
+            "Unit testing with JUnit"
+        ],
+        "feature_set": [
+            "Interactive labs to practice Java fundamentals",
+            "Hands-on lab to build and run a simple Spring Boot application",
+            "Sample exercises for OOP and collections",
+            "REST API creation and consumption using Spring Boot",
+            "Basic application testing using JUnit"
+        ],
+        "problem_statement_style": "scenario",
+        "projects": [
+            {
+                "project_name": "lab_generation_java_springboot",
+                "tech_domain": "Backend Development",
+                "tech_subdomain": "Java Spring Boot",
+                "skill": "java_springboot",
+                "tech_stack": {
+                    "language": {
+                        "name": "Java",
+                        "version": "17"
+                    },
+                    "framework": {
+                        "name": "Spring Boot",
+                        "version": "3.x"
+                    }
+                },
+                "testing": {
+                    "unit_testing": {
+                        "framework": "JUnit 5",
+                        "mocking_library": "Mockito",
+                        "enabled": true
+                    },
+                    "integration_testing": {
+                        "framework": "Spring Boot Test",
+                        "enabled": true
+                    },
+                    "end_to_end_or_api_testing": {
+                        "framework": "RestAssured",
+                        "enabled": true
+                    }
+                },
+                "scope": {
+                    "core_java": [
+                        "Data types",
+                        "Control statements",
+                        "Loops",
+                        "OOP concepts",
+                        "Exception handling",
+                        "Collections"
+                    ],
+                    "spring_boot": [
+                        "Application setup",
+                        "Dependency injection",
+                        "Configuration",
+                        "RESTful controller creation",
+                        "Service and repository layers",
+                        "Spring Boot project structure"
+                    ],
+                    "build_and_run": [
+                        "Using Maven",
+                        "Project packaging",
+                        "Running with Spring Boot CLI"
+                    ],
+                    "testing": [
+                        "Writing unit tests with JUnit",
+                        "Simple integration testing",
+                        "API testing with RestAssured"
+                    ]
+                },
+                "prerequisites": [
+                    "Install Java JDK 17 or higher",
+                    "Install Maven or Gradle",
+                    "Install IntelliJ IDEA or Eclipse"
+                ],
+                "runtime_environment": {
+                    "Build": "Maven",
+                    "IDE": "IntelliJ IDEA",
+                    "OS Requirements": "Windows 10+, macOS Monterey+, Ubuntu 20.04+",
+                    "Database": "MySQL",
+                    "Host": "localhost",
+                    "Port": "3306",
+                    "Username": "testuser",
+                    "Password": "Testuser123$"
+                },
+                "learning_outcomes": [
+                    "Write Java programs using basic and core concepts",
+                    "Understand and utilize object-oriented programming",
+                    "Design and structure a simple REST API using Spring Boot",
+                    "Apply dependency injection in Java applications",
+                    "Organize code using layered architecture in Spring Boot",
+                    "Execute and interpret unit and integration test results"
+                ],
+                "feature_set": [
+                    "Multiple step-by-step coding exercises for Java",
+                    "Guided Spring Boot project lab: build a basic REST API",
+                    "Testing modules with JUnit and Spring Boot Test",
+                    "Instructions for database connection and CRUD operations"
+                ],
+                "api_documentation": {
+                    "endpoint_sample": "/api/greetings",
+                    "method_sample": "GET",
+                    "description": "Returns a greeting message"
+                },
+                "output_resource_type": "code",
+                "dependency_type": null
+            }
+        ],
+        "acceptance_criteria": [
+            "All Java exercises compile and run without errors",
+            "Spring Boot application starts, serves at least one API endpoint",
+            "Unit tests pass successfully for core modules",
+            "Lab documentation provides step-by-step guidance",
+            "Learner can complete CRUD operation with MySQL database"
+        ],
+        "deliverables": [
+            "Java fundamentals interactive coding lab",
+            "Spring Boot mini-project with README and instructions",
+            "Sample API endpoint implementation",
+            "JUnit test cases for Java and Spring Boot modules",
+            "Instructions for local setup and execution"
+        ],
+        "need_research": "False",
+        "learning_outcomes": [
+            "Strong foundation in Java programming concepts",
+            "Spring Boot application setup and REST API development",
+            "Basic database integration with Spring Boot",
+            "Ability to write and understand unit tests"
+        ],
+        "learning_style": "guided",
+        "assessment_type": null,
+        "user_prompt": "Generate lab for module: Java Fundamentals and Spring Boot Foundations",
+        "problem_statement": "Problem Statement: Interactive Lab Generation Platform for an Education Company\n\nScenario-Based Project Problem Statement\n\nRole and Industry Context:\nYou have recently joined the backend development team at EduLabs, a company specializing in creating modern, hands-on learning tools for programming education institutions. The company’s mission is to make core computer science concepts engaging and accessible for beginners and intermediate learners. To achieve this, the organization is launching a new platform that enables educators to generate interactive labs for students to practice Java fundamentals and experiment with Spring Boot in real-world scenarios.\n\nBusiness Need:\nEducation institutions often struggle to provide up-to-date, interactive, and reusable programming exercises. Manual creation of such labs is time-consuming and often fails to keep students engaged. EduLabs wants to automate and streamline the generation and management of practice labs by building a backend system that supports lab creation, assignment, submission, and feedback processes.\n\nObjective:\nYou are tasked with developing the backend of the Lab Generation Platform. Your main goal is to design a RESTful Spring Boot application that enables educators to create, manage, and retrieve interactive lab exercises centered on Java programming fundamentals (OOP principles, collections, and unit testing). The system should allow for basic database integration to persist lab and submission data, and expose endpoints for both educators and students to interact with lab content programmatically.\n\nTarget Audience:\nThis project is specifically designed for beginner and intermediate backend developers eager to build confidence in Java programming and Spring Boot. It assumes a basic familiarity with Java syntax and a conceptual understanding of web APIs, but does not require prior experience with Spring Boot, RESTful design, or advanced Java libraries.\n\nLearning Outcomes Alignment:\nBy completing this project, you will:\n\n- Gain a strong foundation in Java programming concepts (Object-Oriented Programming, collections, encapsulation, inheritance, etc.)\n- Set up and configure a Spring Boot project, with hands-on experience building and running an application\n- Practice basic database integration with Spring Data JPA and H2 (or similar in-memory database)\n- Create and consume REST APIs for lab management and student submission capabilities\n- Write and understand basic unit tests using JUnit, reinforcing the importance of test-driven development\n\nProject Timeline and Milestones (Total: 3-5 hours)\n\n- Hour 1: Design and implement core Java entities for lab exercises and submissions. Practice OOP design and the use of collections.\n- Hour 2: Set up the Spring Boot project, create REST controllers for lab management (CRUD for labs).\n- Hour 3: Integrate a simple in-memory database (H2) for storing labs and student submissions.\n- Hour 4: Implement REST endpoints for student interactions (retrieve lab, submit solution).\n- Hour 5: Develop basic JUnit tests for core functionalities (entity validation, controller actions).\n\nFeature Set and Task Breakdown\n\n1. Interactive Labs to Practice Java Fundamentals\n   - Create core Java classes: Lab, Submission, Student\n   - Use collections (List, Map) to manage labs and submissions within each service/component\n   - Ensure appropriate use of OOP concepts (encapsulation, inheritance if necessary for different lab types)\n\n2. Hands-On Lab to Build and Run a Simple Spring Boot Application\n   - Initialize a Spring Boot project using Spring Initializr (maven-based)\n   - Configure basic application properties for development environment\n\n3. Sample Exercises for OOP and Collections\n   - Implement lab types (e.g., code completion, multiple-choice) using OOP principles\n   - Use collections to store and manage possible questions/solutions\n\n4. REST API Creation and Consumption Using Spring Boot\n   - Develop REST controllers for:\n     - Educators: Create, read, update, delete lab exercises\n     - Students: Retrieve available labs and submit completed work\n   - Demonstrate basic JSON request/response structure\n\n5. Basic Application Testing Using JUnit\n   - Write unit tests for:\n     - Entity validation (e.g., Lab name cannot be null)\n     - Lab management service (adding, fetching labs)\n     - REST endpoints (verifying CRUD operations for labs, valid/invalid submissions)\n\nDetailed Requirements and Instructions\n\nStep 1: Java Fundamentals and OOP (1 hour)\n\n- Define Lab, Student, and Submission as Java classes.\n  - Lab should have fields such as id, title, description, type, and a list of questions.\n  - Student should have id, name, and email.\n  - Submission should link a student and a lab, and store the answers provided.\n- Use collections (ArrayList, HashMap) where appropriate to manage in-memory lists of labs and submissions.\n- Demonstrate encapsulation with private fields and public getters/setters.\n- If implementing multiple lab types, use inheritance or interfaces.\n\nStep 2: Spring Boot Setup and CRUD Operations (1 hour)\n\n- Initialize a new Spring Boot project with dependencies: Spring Web, Spring Data JPA, H2 Database, Lombok, and Spring Boot Test.\n- Configure application.properties for local development and H2 console access.\n- Annotate entities appropriately (@Entity, @Id, etc.), and set up JPA repositories for Lab and Submission.\n\nStep 3: REST API Development (1 hour)\n\n- Create REST controllers for educators:\n  - POST /labs: Create a new lab\n  - GET /labs: List all labs\n  - GET /labs/{id}: Retrieve a lab by ID\n  - PUT /labs/{id}: Update lab details\n  - DELETE /labs/{id}: Remove a lab\n- Create REST endpoints for students:\n  - GET /labs: Fetch all available labs\n  - POST /labs/{id}/submissions: Submit answers for a specific lab\n\nStep 4: Database Integration (1 hour)\n\n- Use Spring Data JPA to persist Lab and Submission entities in the H2 in-memory database.\n- Demonstrate fetching data (all labs, all submissions for a lab) from the database using repository methods.\n- For simplicity, Student may be hard-coded or minimally persisted.\n\nStep 5: Application Testing with JUnit (1 hour)\n\n- Write JUnit tests for:\n  - Validating mandatory fields in entities (lab title, submission content)\n  - Service methods (creating a lab, submitting answers)\n  - REST endpoints (successful and unsuccessful CRUD operations)\n- Run tests and verify coverage in the IDE or via Maven\n\nEvaluation Criteria\n\n- Does the implementation feature clean, well-structured Java code demonstrating OOP principles and effective use of collections?\n- Is the Spring Boot application correctly set up and runnable, exposing the defined REST endpoints?\n- Are labs and submissions persisted using Spring Data JPA with H2?\n- Are there clear, functional unit tests validating the main application features using JUnit?\n- Is the code readable, maintainable, and commented for educational use?\n\nConstraints\n\n- Stick strictly to Java, Spring Boot, and included dependencies. Avoid advanced frameworks, security, frontend code, or external integrations.\n- Solution scope must be feasible within 3-5 hours for beginners/intermediate learners.\n- Focus all tasks on educational lab generation and management scenarios.\n\nEnd of Problem Statement\n\nBy completing this project, you will demonstrate practical mastery of Java fundamentals, apply Spring Boot basics, integrate with a database, work with REST APIs, and validate your code with unit tests—all within an education industry context, generating real-world learning impact."
+    }
+}

@@ -1,0 +1,59 @@
+[
+    {
+        "profile": "Drax Client - Development Profile 1 - (OPENAI_GPT_4_1)",
+        "crew_llm": {
+            "config": "OPENAI_GPT_4_1",
+            "planning": "OPENAI_GPT_4_1",
+            "research": "OPENAI_GPT_4_1",
+            "solution": "OPENAI_GPT_4_1",
+            "stub_code": "OPENAI_GPT_4_1",
+            "test_case": "OPENAI_GPT_4_1",
+            "partial_code": "OPENAI_GPT_4_1",
+            "solution_review": "OPENAI_GPT_4_1",
+            "problem_statement": "OPENAI_GPT_4_1",
+            "research_with_tool": "OPENAI_GPT_4_1",
+            "modules_and_activities": "OPENAI_GPT_4_1"
+        },
+        "api_keys": {
+            "OPENAI_API_KEY": "**********0DhoA",
+            "ANTHROPIC_API_KEY": "**********FugAA",
+            "PERPLEXITYAI_API_KEY": "**********qOmmW",
+            "GEMINI_API_KEY": "**********TvQK4"
+        }
+    },
+    {
+        "project_name": "planning",
+        "crew_name": "planning_crew",
+        "usage_metrics": {
+            "total_tokens": 5395,
+            "prompt_tokens": 4243,
+            "cached_prompt_tokens": 0,
+            "completion_tokens": 1152,
+            "successful_requests": 1
+        }
+    },
+    {
+        "project_name": "planning",
+        "crew_name": "problem_statement_crew",
+        "usage_metrics": {
+            "total_tokens": 3467,
+            "prompt_tokens": 1972,
+            "cached_prompt_tokens": 0,
+            "completion_tokens": 1495,
+            "successful_requests": 1
+        }
+    },
+    {
+        "execution_id": "d96faed7-ab01-491a-8f7b-889c8b5f7907",
+        "project_name": "Lab_Java Fundamentals and Spring Boot Foundations",
+        "created_by": "Nuvepro",
+        "created_on": "2026-02-27T22:12:47.360453",
+        "modified_by": "Nuvepro",
+        "modified_on": "2026-02-27T22:13:39.359215",
+        "owner": "Nuvepro",
+        "prompt": "Generate lab for module: Java Fundamentals and Spring Boot Foundations"
+    },
+    {
+        "Application_duration": 0.92
+    }
+]
