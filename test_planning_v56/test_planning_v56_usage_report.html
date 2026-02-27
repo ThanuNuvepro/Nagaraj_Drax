@@ -29,6 +29,8 @@
       
     
       
+    
+      
         <div class="bg-white p-6 rounded-xl shadow-lg">
           <!-- Shared Title -->
           <h2 class="text-2xl font-semibold text-blue-800 mb-4">📁 Project Details</h2>
@@ -53,7 +55,7 @@
               </div>
               <div class="flex">
                 <span class="w-40 font-semibold">Execution ID</span>
-                <span>db1aed75-0841-45bc-b842-887f27843974</span>
+                <span>1432600b-74d4-447d-be39-40b26df68446</span>
               </div>
               <div class="flex">
                 <span class="w-40 font-semibold">Created By</span>
@@ -61,7 +63,7 @@
               </div>
               <div class="flex">
                 <span class="w-40 font-semibold">Created On</span>
-                <span> 2026-02-27T20:31:30.943232</span>
+                <span> 2026-02-27T20:48:26.718054</span>
               </div>
               <div class="flex">
                 <span class="w-40 font-semibold">Modified By</span>
@@ -69,7 +71,7 @@
               </div>
               <div class="flex">
                 <span class="w-40 font-semibold">Modified On</span>
-                <span> 2026-02-27T20:32:09.668293</span>
+                <span> 2026-02-27T20:48:40.022917</span>
               </div>
             </div>          
           </div>
@@ -263,6 +265,8 @@
   
     
   
+    
+  
 
 
     <!-- Application Execution Duration -->
@@ -272,9 +276,11 @@
       
     
       
+    
+      
         <div class="bg-white p-6 rounded-xl shadow-lg">
           <h2 class="text-2xl font-semibold text-indigo-800 mb-4">⏱️ Total Project Generation Time</h2>
-          <p class="text-lg text-gray-700">Duration: <span class="font-semibold">0.07 minutes</span></p>
+          <p class="text-lg text-gray-700">Duration: <span class="font-semibold">0.27 minutes</span></p>
         </div>
       
     
@@ -287,13 +293,13 @@
         </div>
         <div class="ml-6 flex-1">
           <ul class="space-y-4 text-lg text-gray-700 mb-4">
-            <li><span class="inline-block w-3 h-3 rounded-full mr-2 align-middle" style="background:#60a5fa;"></span>Input Tokens: <span class="font-extrabold text-blue-900 text-1xl">0</span></li>
+            <li><span class="inline-block w-3 h-3 rounded-full mr-2 align-middle" style="background:#60a5fa;"></span>Input Tokens: <span class="font-extrabold text-blue-900 text-1xl">4234</span></li>
             <li><span class="inline-block w-3 h-3 rounded-full mr-2 align-middle" style="background:#fbbf24;"></span>Cached Tokens: <span class="font-extrabold text-yellow-700 text-1xl">0</span></li>
-            <li><span class="inline-block w-3 h-3 rounded-full mr-2 align-middle" style="background:#34d399;"></span>Output Tokens: <span class="font-extrabold text-green-800 text-1xl">0</span></li>
+            <li><span class="inline-block w-3 h-3 rounded-full mr-2 align-middle" style="background:#34d399;"></span>Output Tokens: <span class="font-extrabold text-green-800 text-1xl">655</span></li>
           </ul>
           <div class="bg-blue-50 border border-blue-300 rounded-lg p-4 shadow text-center">
             <div class="font-bold text-blue-900">Cumulative Token Usage</div>
-            <div class="text-2xl font-extrabold text-blue-800">0</div>
+            <div class="text-2xl font-extrabold text-blue-800">4889</div>
             <div class="text-xs text-gray-500 mt-1">Total tokens processed</div>
           </div>
         </div>
@@ -303,7 +309,7 @@
             const data = {
               labels: ['Input Tokens', 'Cached Tokens', 'Output Tokens'],
               datasets: [{
-                data: [parseInt('0'), parseInt('0'), parseInt('0')],
+                data: [parseInt('4234'), parseInt('0'), parseInt('655')],
                 backgroundColor: [
                   '#60a5fa', // blue-400
                   '#fbbf24', // yellow-400
@@ -340,10 +346,44 @@
       
     
       
+        
+      
+    
+      
     
       
     
 
+    
+      <div class="bg-white p-6 rounded-xl shadow-lg">
+        <h2 class="text-2xl font-semibold text-green-800 mb-4">Project: planning</h2>
+
+        
+          <h3 class="text-xl font-semibold text-green-600 mb-2">Crew Name: planning_crew</h3>
+          <table class="min-w-full text-sm text-center border border-gray-200 rounded-md overflow-hidden mb-6">
+            <thead class="bg-green-600 text-white">
+              <tr>
+                <th class="px-3 py-2">#</th>
+                <th class="px-3 py-2">Total Tokens</th>
+                <th class="px-3 py-2">Input Tokens</th>
+                <th class="px-3 py-2">Cached Prompt Tokens</th>
+                <th class="px-3 py-2">Output Tokens</th>
+                <th class="px-3 py-2">Successful Requests</th>
+              </tr>
+            </thead>
+            <tbody class="bg-white text-gray-800">
+              <tr class="hover:bg-gray-100">
+                <td class="py-2">1</td>
+                <td class="py-2">4889</td>
+                <td class="py-2">4234</td>
+                <td class="py-2">0</td>
+                <td class="py-2">655</td>
+                <td class="py-2">1</td>
+              </tr>
+            </tbody>
+          </table>
+        
+      </div>
     
   </div>
   <footer class="w-full text-center py-4 text-gray-500 text-sm mt-10 border-t border-blue-100">
