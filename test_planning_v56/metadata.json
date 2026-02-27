@@ -1,13 +1,13 @@
 {
-    "id": "d37298c1-4e18-4bf9-9a14-6775f7321ccb",
+    "id": "99f0d186-44e7-468f-9c5c-4701c2969a13",
     "name": "test_planning_v56",
     "description": "Detailed specification for generating a Project using Generative AI",
     "schema": "2.0",
     "owner": "Nuvepro",
     "created_by": "ThanushreeS",
-    "created_on": "2026-02-27T21:17:49.946259",
+    "created_on": "2026-02-27T21:19:28.932579",
     "modified_by": "ThanushreeS",
-    "modified_on": "2026-02-27T21:18:01.411047",
+    "modified_on": "2026-02-27T21:19:43.420261",
     "published_on": "",
     "category": "",
     "version": "test_planning_v56",
@@ -15,68 +15,76 @@
     "plan_spec": {
         "tech_domain": "Backend Development",
         "tech_subdomain": "Python Core",
-        "application_domain": "General Programming",
-        "application_subdomain": "hello_world_app",
-        "target_audience": "Python beginners, students new to programming",
-        "difficulty_level": "beginner",
+        "application_domain": "Basic Programming",
+        "application_subdomain": "hello_world_application",
+        "target_audience": "Beginner programmers, learners new to Python",
+        "difficulty_level": "Beginner",
         "time_constraints": "15 minutes",
         "prerequisites": [
-            "Basic understanding of computers",
-            "Ability to install Python"
+            "Basic understanding of computer operations",
+            "Ability to install and use software",
+            "Introductory knowledge of programming concepts"
         ],
         "scope": [
-            "Console input/output in Python",
             "Python syntax basics",
-            "Running Python scripts"
+            "Printing output",
+            "Running Python scripts",
+            "Setting up a development environment"
         ],
         "feature_set": [
-            "Display 'Hello, World!' message in the console"
+            "Print 'Hello, World!' to standard output",
+            "Basic script structure"
         ],
         "problem_statement_style": "scenario",
         "projects": [
             {
-                "project_name": "hello_world_app_python_core",
+                "project_name": "hello_world_application_python_core",
                 "tech_domain": "Backend Development",
                 "tech_subdomain": "Python Core",
                 "skill": "python_core",
                 "tech_stack": {
                     "language": {
                         "name": "Python",
-                        "version": "3.8+"
+                        "version": "3.10+"
                     },
                     "framework": {
-                        "name": "None"
+                        "name": "None",
+                        "version": "N/A"
                     }
                 },
                 "testing": {
                     "unit_testing": {
                         "framework": "unittest",
-                        "sample_test_case": "check output is 'Hello, World!'"
+                        "example": "Test output of print statement"
                     },
                     "integration_testing": null,
                     "end_to_end_or_api_testing": null
                 },
                 "scope": {
-                    "basics": [
-                        "Python syntax",
-                        "print statement",
-                        "Running scripts"
+                    "Foundational Concepts": [
+                        "Python installation",
+                        "Creating and running scripts"
+                    ],
+                    "Project-Specific Concepts": [
+                        "Printing 'Hello, World!'"
                     ]
                 },
                 "prerequisites": [
-                    "Python installed on local machine"
+                    "Python installed on local machine",
+                    "Text editor or IDE (e.g., Visual Studio Code, PyCharm)"
                 ],
                 "runtime_environment": {
-                    "IDE": "Visual Studio Code, PyCharm, or any text editor",
+                    "IDE": "Visual Studio Code or PyCharm",
                     "OS Requirements": "Windows 10+, macOS Monterey+, Ubuntu 20.04+"
                 },
                 "learning_outcomes": [
-                    "Ability to write and execute a basic Python script",
-                    "Familiarity with Python syntax",
-                    "Understanding of console output"
+                    "Understand basic Python syntax",
+                    "Run a Python script from command line or IDE",
+                    "Gain confidence in first steps with Python"
                 ],
                 "feature_set": [
-                    "A script file (hello_world.py) that prints 'Hello, World!'"
+                    "Executable Python script",
+                    "Standard output printout"
                 ],
                 "api_documentation": null,
                 "output_resource_type": "code",
@@ -84,16 +92,19 @@
             }
         ],
         "acceptance_criteria": [
-            "The script outputs exactly 'Hello, World!' when run.",
-            "No errors are present in the code."
+            "'Hello, World!' is printed to standard output upon execution",
+            "No runtime errors occur",
+            "Code follows standard Python conventions (PEP8 for this context)"
         ],
         "deliverables": [
-            "Python file (hello_world.py) with correct implementation"
+            "hello_world.py script file",
+            "Optional: README file with instructions for running"
         ],
         "need_research": "False",
         "learning_outcomes": [
-            "Understand how to write and execute basic Python code.",
-            "Gain confidence in running scripts from the command line or editor."
+            "Set up and verify Python environment",
+            "Write and execute a simple Python script",
+            "Interpret standard output"
         ],
         "learning_style": "guided",
         "assessment_type": null,
