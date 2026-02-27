@@ -25,24 +25,24 @@
         "project_name": "planning",
         "crew_name": "planning_crew",
         "usage_metrics": {
-            "total_tokens": 4889,
+            "total_tokens": 4937,
             "prompt_tokens": 4234,
             "cached_prompt_tokens": 0,
-            "completion_tokens": 655,
+            "completion_tokens": 703,
             "successful_requests": 1
         }
     },
     {
-        "execution_id": "1432600b-74d4-447d-be39-40b26df68446",
+        "execution_id": "47211820-acee-4571-802e-4831b5e5e85a",
         "project_name": "test_planning_v56",
         "created_by": "ThanushreeS",
-        "created_on": "2026-02-27T20:48:26.718054",
+        "created_on": "2026-02-27T21:11:04.358396",
         "modified_by": "ThanushreeS",
-        "modified_on": "2026-02-27T20:48:40.022917",
+        "modified_on": "2026-02-27T21:11:27.963654",
         "owner": "Nuvepro",
         "prompt": "A simple hello world application in python"
     },
     {
-        "Application_duration": 0.27
+        "Application_duration": 0.44
     }
 ]

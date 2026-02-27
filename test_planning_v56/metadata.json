@@ -1,45 +1,44 @@
 {
-    "id": "1432600b-74d4-447d-be39-40b26df68446",
+    "id": "47211820-acee-4571-802e-4831b5e5e85a",
     "name": "test_planning_v56",
     "description": "Detailed specification for generating a Project using Generative AI",
     "schema": "2.0",
     "owner": "Nuvepro",
     "created_by": "ThanushreeS",
-    "created_on": "2026-02-27T20:48:26.718054",
+    "created_on": "2026-02-27T21:11:04.358396",
     "modified_by": "ThanushreeS",
-    "modified_on": "2026-02-27T20:48:40.022917",
+    "modified_on": "2026-02-27T21:11:27.963654",
     "published_on": "",
     "category": "",
     "version": "test_planning_v56",
     "locale": "en_US",
     "plan_spec": {
-        "tech_domain": "Backend Development",
-        "tech_subdomain": "python_core",
-        "application_domain": "Demo Applications",
-        "application_subdomain": "hello_world_app",
-        "target_audience": "Beginner Python Developers",
+        "tech_domain": "Programming Fundamentals",
+        "tech_subdomain": "Python Core",
+        "application_domain": "Sample Applications",
+        "application_subdomain": "hello_world",
+        "target_audience": "Beginners learning programming or Python for the first time",
         "difficulty_level": "Beginner",
         "time_constraints": "15 minutes",
         "prerequisites": [
-            "Basic computer usage",
-            "Ability to install software",
-            "Introduction to programming concepts"
+            "Basic understanding of what a programming language is",
+            "Python installed on the development machine",
+            "Familiarity with using an IDE or a code editor"
         ],
         "scope": [
-            "Python syntax basics",
-            "Print statements in Python",
-            "Running Python scripts",
-            "Basic command line usage"
+            "Printing output to console in Python",
+            "Basic syntax of Python",
+            "How to run a Python script"
         ],
         "feature_set": [
-            "Display 'Hello, World!' message"
+            "Display the phrase 'Hello, World!' on the console"
         ],
         "problem_statement_style": "scenario",
         "projects": [
             {
-                "project_name": "hello_world_app_python_core",
-                "tech_domain": "Backend Development",
-                "tech_subdomain": "python_core",
+                "project_name": "hello_world_python_core",
+                "tech_domain": "Programming Fundamentals",
+                "tech_subdomain": "Python Core",
                 "skill": "python_core",
                 "tech_stack": {
                     "language": {
@@ -47,41 +46,39 @@
                         "version": "3.8+"
                     },
                     "framework": {
-                        "name": "None - Core Python"
+                        "name": "None"
                     }
                 },
                 "testing": {
-                    "unit_testing": null,
+                    "unit_testing": {
+                        "framework": "unittest",
+                        "example_test": "Check if output matches 'Hello, World!'"
+                    },
                     "integration_testing": null,
                     "end_to_end_or_api_testing": null
                 },
                 "scope": {
                     "core_concepts": [
-                        "Writing Python code",
-                        "Displaying output to the console",
-                        "Saving and running Python files"
-                    ],
-                    "project_specific": [
-                        "Using the print() function",
-                        "Understanding basic script execution"
+                        "Python print() function",
+                        "Script execution in Python",
+                        "Understanding standard output"
                     ]
                 },
                 "prerequisites": [
-                    "Python installed (3.8 or later)",
-                    "Any basic text editor"
+                    "Install Python 3.8 or higher on local machine",
+                    "Access to Visual Studio Code or similar code editor"
                 ],
                 "runtime_environment": {
-                    "IDE": "Visual Studio Code (recommended) or any text editor",
-                    "OS Requirements": "Windows 10+, macOS Monterey+, Ubuntu 20.04+",
-                    "Python Version": "3.8+"
+                    "IDE": "Visual Studio Code",
+                    "OS Requirements": "Windows 10+, macOS Monterey+, Ubuntu 20.04+"
                 },
                 "learning_outcomes": [
-                    "Learn how to write and run a basic Python script",
-                    "Understand the usage of print statements",
-                    "Become familiar with Python file creation and execution"
+                    "Familiarity with Python syntax",
+                    "Ability to write and execute a simple Python program",
+                    "Confidence with the first basic programming task"
                 ],
                 "feature_set": [
-                    "Simple script prints 'Hello, World!' to the console"
+                    "Prints 'Hello, World!' to the terminal"
                 ],
                 "api_documentation": null,
                 "output_resource_type": "code",
@@ -89,17 +86,20 @@
             }
         ],
         "acceptance_criteria": [
-            "The script runs successfully without errors.",
-            "The output on the console is exactly 'Hello, World!'.",
-            "No external dependencies or frameworks are required."
+            "Program prints exactly 'Hello, World!' when executed.",
+            "Script runs without errors on a machine with Python 3.8+",
+            "Code is self-contained and does not require any external libraries"
         ],
         "deliverables": [
-            "A Python script file named hello_world.py"
+            "Python (.py) source code file for Hello World application",
+            "README file with brief run instructions",
+            "Sample test output showing correct message"
         ],
         "need_research": "False",
         "learning_outcomes": [
-            "Ability to write and execute a simple Python script",
-            "Familiarity with basic Python syntax"
+            "Understand how to write and run a simple Python script",
+            "First exposure to Python syntax for output",
+            "Achieve successful setup and first execution in Python"
         ],
         "learning_style": "guided",
         "assessment_type": null,
