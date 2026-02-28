@@ -1,0 +1,59 @@
+[
+    {
+        "profile": "Drax Client - Development Profile 1 - (OPENAI_GPT_4_1)-test new",
+        "crew_llm": {
+            "config": "OPENAI_GPT_4_1",
+            "planning": "OPENAI_GPT_4_1",
+            "research": "OPENAI_GPT_4_1",
+            "solution": "OPENAI_GPT_4_1",
+            "stub_code": "OPENAI_GPT_4_1",
+            "test_case": "OPENAI_GPT_4_1",
+            "partial_code": "OPENAI_GPT_4_1",
+            "solution_review": "OPENAI_GPT_4_1",
+            "problem_statement": "OPENAI_GPT_4_1",
+            "research_with_tool": "OPENAI_GPT_4_1",
+            "modules_and_activities": "OPENAI_GPT_4_1"
+        },
+        "api_keys": {
+            "OPENAI_API_KEY": "**********0DhoA",
+            "ANTHROPIC_API_KEY": "**********FugAA",
+            "PERPLEXITYAI_API_KEY": "**********qOmmW",
+            "GEMINI_API_KEY": "**********TvQK4"
+        }
+    },
+    {
+        "project_name": "planning",
+        "crew_name": "planning_crew",
+        "usage_metrics": {
+            "total_tokens": 5419,
+            "prompt_tokens": 4243,
+            "cached_prompt_tokens": 0,
+            "completion_tokens": 1176,
+            "successful_requests": 1
+        }
+    },
+    {
+        "project_name": "planning",
+        "crew_name": "problem_statement_crew",
+        "usage_metrics": {
+            "total_tokens": 3720,
+            "prompt_tokens": 2149,
+            "cached_prompt_tokens": 0,
+            "completion_tokens": 1571,
+            "successful_requests": 1
+        }
+    },
+    {
+        "execution_id": "abfc2233-9cc6-4bf1-bd78-da3dae84b8b5",
+        "project_name": "Lab_React Fundamentals for Banking Dashboard UI",
+        "created_by": "Nuvepro",
+        "created_on": "2026-02-28T08:18:36.251461",
+        "modified_by": "Nuvepro",
+        "modified_on": "2026-02-28T08:19:38.494026",
+        "owner": "Nuvepro",
+        "prompt": "Generate lab for module: React Fundamentals for Banking Dashboard UI"
+    },
+    {
+        "Application_duration": 1.18
+    }
+]

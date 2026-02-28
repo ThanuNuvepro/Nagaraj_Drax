@@ -1,0 +1,164 @@
+{
+    "id": "abfc2233-9cc6-4bf1-bd78-da3dae84b8b5",
+    "name": "Lab_React Fundamentals for Banking Dashboard UI",
+    "description": "Detailed specification for generating a Project using Generative AI",
+    "schema": "2.0",
+    "owner": "Nuvepro",
+    "created_by": "Nuvepro",
+    "created_on": "2026-02-28T08:18:36.251461",
+    "modified_by": "Nuvepro",
+    "modified_on": "2026-02-28T08:19:38.494026",
+    "published_on": "",
+    "category": "",
+    "version": "Lab_React Fundamentals for Banking Dashboard UI",
+    "locale": "en_US",
+    "plan_spec": {
+        "tech_domain": "Frontend Development",
+        "tech_subdomain": "React",
+        "application_domain": "Banking",
+        "application_subdomain": "dashboard_ui",
+        "target_audience": "Beginner to Intermediate Frontend Developers interested in financial app UI development",
+        "difficulty_level": "Beginner",
+        "time_constraints": "4-6 hours",
+        "prerequisites": [
+            "Basic understanding of HTML, CSS, and JavaScript",
+            "Familiarity with ES6 features",
+            "General awareness of web UIs and banking concepts"
+        ],
+        "scope": [
+            "React fundamentals (components, props, state, events)",
+            "JSX syntax and rendering",
+            "Component composition and reusability",
+            "Hooks (useState, useEffect)",
+            "Routing (using React Router basics)",
+            "Styling React components",
+            "Basic UI design for finance/banking applications",
+            "Mock data and API simulation in React"
+        ],
+        "feature_set": [
+            "Login form (dummy authentication flow, static)",
+            "Account overview dashboard (balances, recent transactions, account cards)",
+            "Navigation menu (dashboard, transfers, profile)",
+            "Transfer funds interface (mock form submission and validation)",
+            "Recent activity/transaction list",
+            "Responsive layout",
+            "Simple state management using hooks",
+            "Component-based file organization"
+        ],
+        "problem_statement_style": "scenario",
+        "projects": [
+            {
+                "project_name": "dashboard_ui_react",
+                "tech_domain": "Frontend Development",
+                "tech_subdomain": "React",
+                "skill": "javascript_react",
+                "tech_stack": {
+                    "language": {
+                        "name": "JavaScript",
+                        "version": "ES6+"
+                    },
+                    "framework": {
+                        "name": "React",
+                        "version": "18.x"
+                    }
+                },
+                "testing": {
+                    "unit_testing": {
+                        "framework": "Jest",
+                        "library": "React Testing Library",
+                        "enabled": true
+                    },
+                    "integration_testing": {
+                        "framework": "React Testing Library",
+                        "enabled": false
+                    },
+                    "end_to_end_or_api_testing": {
+                        "framework": "Cypress",
+                        "enabled": false
+                    }
+                },
+                "scope": {
+                    "React Basics": [
+                        "Component creation",
+                        "Props and state usage",
+                        "JSX and Events"
+                    ],
+                    "UI Implementation": [
+                        "Banking dashboard structure",
+                        "Navigation and routing",
+                        "Styling approaches"
+                    ],
+                    "Data Handling": [
+                        "Mock data fetching",
+                        "List rendering"
+                    ]
+                },
+                "prerequisites": [
+                    "Install Node.js (version 16+)",
+                    "Install npm or yarn",
+                    "Familiarity with CLI for project scaffolding"
+                ],
+                "runtime_environment": {
+                    "IDE": "Visual Studio Code",
+                    "OS Requirements": "Windows 10+, macOS Monterey+, or Ubuntu 20.04+",
+                    "Build": "npm (with create-react-app, or Vite if preferred), Webpack (abstracted)",
+                    "Database": "Not required (mock data used for UI lab)",
+                    "Host": "localhost",
+                    "Port": "3000",
+                    "Username": "testuser",
+                    "Password": "Testuser123$"
+                },
+                "learning_outcomes": [
+                    "Confidently create and structure React components for banking apps",
+                    "Design and implement responsive dashboards using React",
+                    "Handle props, state, and events to create interactive UIs",
+                    "Simulate API data and manage list rendering",
+                    "Use React Hooks for state management",
+                    "Apply reusable component patterns for scalable UIs",
+                    "Add basic tests to validate UI components"
+                ],
+                "feature_set": [
+                    "Login screen/form",
+                    "Main dashboard with overview cards",
+                    "Recent transaction list with mock data",
+                    "Transfer funds form with validation",
+                    "Menu for navigation",
+                    "Responsive styling"
+                ],
+                "api_documentation": null,
+                "output_resource_type": "code",
+                "dependency_type": null
+            }
+        ],
+        "acceptance_criteria": [
+            "User can view a login screen and navigate to the dashboard (regardless of authentication)",
+            "Dashboard displays account balances, list of recent transactions, and menu",
+            "Transfer funds form performs client-side validation and displays a mock confirmation",
+            "State and props are used appropriately across components",
+            "Components are structured for reusability",
+            "UI is responsive (usable on mobile and desktop)",
+            "Unit tests exist for at least key components (e.g., LoginForm, Dashboard, TransferForm)",
+            "Project runs with no critical errors using `npm start`",
+            "Adheres to accessibility basics (e.g., labels for form inputs)"
+        ],
+        "deliverables": [
+            "Complete React project with modular folders/components",
+            "Sample/mock data for accounts and transactions",
+            "Unit test files",
+            "Setup instructions (README)",
+            "Screenshots or demo GIF (optional, for learning completeness)"
+        ],
+        "need_research": "False",
+        "learning_outcomes": [
+            "Develop foundational React skills",
+            "Understand dashboard UI design for finance",
+            "Organize React projects for scalability",
+            "Write maintainable, testable JavaScript/React code",
+            "Practice component-driven frontend development"
+        ],
+        "learning_style": "guided",
+        "assessment_type": null,
+        "user_prompt": "Generate lab for module: React Fundamentals for Banking Dashboard UI",
+        "problem_statement": "Project Problem Statement: Building a Responsive React Banking Dashboard UI\n\nScenario\n\nYou are a Frontend Developer at FinTrust, a digital banking startup focused on delivering seamless, transparent online banking experiences for users. As part of an ongoing modernization effort, the bank is launching a new customer web dashboard that will serve as the primary interface for personal account holders. You have been tasked with designing and implementing the foundational features of this dashboard using React, ensuring it is scalable, maintainable, and meets the best UX practices in financial technology.\n\nProject Objective\n\nDevelop a React-based, component-driven banking dashboard UI enabling users to:\n\n- Log in via a static, dummy authentication flow,\n- Review account balances and recent transactions,\n- Easily navigate between key sections (Dashboard, Transfers, Profile),\n- Simulate transferring funds through a mock form with validation,\n- View up-to-date activity in a well-organized transaction list,\n- Experience the dashboard seamlessly across devices via a responsive layout,\n- Leverage React hooks for simple state management,\n- Maintain scalable component-based project organization.\n\nThe completed project should capture common industry best practices for finance dashboards and set a strong example of practical React application.\n\nTarget Audience & Assumptions\n\nThis project is designed for Beginner to Intermediate Frontend Developers interested in financial app UI development. You are assumed to have foundational web development skills (HTML/CSS/JavaScript), basic familiarity with React, and a desire to learn industry-oriented frontend design patterns. No advanced state management libraries (e.g., Redux) or backend/API integration are required; all data can be static or mocked.\n\nProject Features & Requirements\n\nYour app must include the following features, each mapped to specific learning outcomes:\n\n1. Login Form (Dummy Authentication Flow, Static)\n    - Users can enter a username and password; upon form submission, a mock authentication process occurs (no real API calls).\n    - Display validation for required fields and simple error handling.\n    - On \"login\", set a local state variable to switch to the main dashboard view.\n\n  → Learning Outcome: Solidify React form handling, validation logic, and conditional rendering.\n\n2. Account Overview Dashboard \n    - Display account cards showing current balances for multiple accounts (e.g., checking, savings, credit card).\n    - An area summarizing aggregate balances.\n    - Welcome message with the user’s name (hardcoded or from dummy login).\n    - A summarized list/table of recent transactions with: date, description, amount, and balance.\n\n  → Learning Outcome: Organize financial data into well-designed UI structures, reinforce effective component breakdown.\n\n3. Navigation Menu \n    - Provide a persistent navigation bar/menu with links or tabs for: Dashboard, Transfers, Profile.\n    - Visual feedback for the active section.\n    - Enable navigation by toggling state; routing libraries (e.g., React Router) are optional but not required.\n\n  → Learning Outcome: Implement navigation patterns common to real-world banking apps and master state-driven UI updates.\n\n4. Transfer Funds Interface \n    - Users can input transfer details (From account, To account, Amount, optional Note).\n    - Validate the form—required fields, numeric amounts, and basic constraints (e.g., sufficient funds prompt, if implementing).\n    - On submission, show a mock success message and update a dummy transaction list.\n    - No backend integration needed; all logic is on the client side.\n\n  → Learning Outcome: Build interactive, validated forms and update UI states based on user actions.\n\n5. Recent Activity/Transaction List \n    - Display an organized, scrollable list or table of the most recent transactions (date, description, category, amount, balance).\n    - Support clear differentiation between spending and inflow.\n\n  → Learning Outcome: Practice mapping and rendering lists, dynamic content updating, and applying finance-appropriate UI cues.\n\n6. Responsive Layout \n    - Ensure your dashboard layout adapts gracefully to both wide (desktop) and narrow (mobile/tablet) screens.\n    - Use a combination of CSS (Flexbox, Grid, or a simple framework) and React-controlled layout components.\n\n  → Learning Outcome: Develop mobile-friendly banking experiences and understand practical responsive design in the finance context.\n\n7. Simple State Management Using Hooks \n    - Store state for authentication, current navigation view, account and transaction data (static or dummy/generated), and form state.\n    - Use React’s useState and/or useEffect for local state and side effects.\n    - No third-party state libraries or context required for this scope.\n\n  → Learning Outcome: Master stateful logic in React for UI-driven apps, tuned to scalable dashboard design.\n\n8. Component-Based File Organization \n    - Separate code logically by feature: e.g., /components/, /pages/, /hooks/, and /utils/.\n    - Each UI element (Navbar, Dashboard, TransferForm, TransactionList, AccountCard, etc.) should be its own component.\n    - Reuse components and props where appropriate to reinforce best practices in maintainability and scalability.\n\n  → Learning Outcome: Apply software engineering principles for organizing React projects in real financial development teams.\n\nProject Deliverables\n\n- A fully functional React project (using Create React App or Vite; do not include real backend/integration).\n- Organized source code reflecting the above requirements.\n- A sample README outlining set-up instructions and a brief design rationale.\n\nTimeline & Milestones (4–6 Hours Total)\n\n1. **Design & Setup (30 min)**\n    - Initialize your React project, create a basic file structure.\n    - Sketch a quick wireframe (pen & paper or tool) for your dashboard's layout.\n\n2. **Authentication & Navigation (1 hr)**\n    - Build the Login page with validation.\n    - Implement the navigation menu and page switching logic.\n\n3. **Dashboard & Transactions (1.5 hr)**\n    - Create account overview cards and balance summary.\n    - Build a reusable TransactionList component for recent activity.\n\n4. **Transfer Funds UI (1 hr)**\n    - Develop the Transfer Form with validation.\n    - Simulate adding a transfer to the transaction list.\n\n5. **Responsive Layout & Polishing (1 hr)**\n    - Apply responsive CSS.\n    - Adjust spacing, font sizes, colors for clear banking UX.\n    - Test UI on different screen sizes.\n\n6. **Refactoring & Documentation (30–60 min)**\n    - Ensure clear component and prop structure.\n    - Comment key sections for maintainability.\n    - Write the README and package the project for review.\n\nLearning Outcomes Mapping\n\nBy undertaking this project, you will:\n\n- Develop foundational React skills by working with components, hooks, forms, and controlled UI updates.\n- Deepen understanding of dashboard UI design in a finance context, with attention to usability and data presentation.\n- Practice organizing a React project for scalability and maintainability in a real-world setting.\n- Write maintainable, testable JavaScript/React code in feature-centric modules, adopting modern best practices.\n- Hone component-driven development—a core industry expectation for frontend developers in fintech.\n\nConstraints\n\n- Do not use advanced features beyond React fundamentals, hooks, and basic CSS/layout.\n- Do not implement backends, real APIs, authentication libraries, or advanced state management.\n- Stay within the specified features; focus on quality and real-world alignment over complexity.\n\nSuccess Criteria\n\n- All eight specified features are implemented and functional.\n- UI is clean, intuitive, and demonstrates a finance-appropriate theme.\n- Codebase is modular, with clearly separated concerns and beginner-to-intermediate accessibility.\n- Deliverables facilitate quick understanding and seamless setup for reviewers.\n\nThis project simulates building the critical building blocks of a banking dashboard using React—demonstrating your readiness for industry-applicable frontend challenges in the fintech sector."
+    }
+}
