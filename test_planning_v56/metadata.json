@@ -1,13 +1,13 @@
 {
-    "id": "99f0d186-44e7-468f-9c5c-4701c2969a13",
+    "id": "d161e239-8fdb-46e7-8957-545a8bc684a1",
     "name": "test_planning_v56",
     "description": "Detailed specification for generating a Project using Generative AI",
     "schema": "2.0",
     "owner": "Nuvepro",
     "created_by": "ThanushreeS",
-    "created_on": "2026-02-27T21:19:28.932579",
+    "created_on": "2026-03-02T15:24:10.181308",
     "modified_by": "ThanushreeS",
-    "modified_on": "2026-02-27T21:19:43.420261",
+    "modified_on": "2026-03-02T15:24:45.952897",
     "published_on": "",
     "category": "",
     "version": "test_planning_v56",
@@ -15,30 +15,30 @@
     "plan_spec": {
         "tech_domain": "Backend Development",
         "tech_subdomain": "Python Core",
-        "application_domain": "Basic Programming",
-        "application_subdomain": "hello_world_application",
-        "target_audience": "Beginner programmers, learners new to Python",
+        "application_domain": "General Application",
+        "application_subdomain": "hello_world_app",
+        "target_audience": "Beginners learning Python programming",
         "difficulty_level": "Beginner",
-        "time_constraints": "15 minutes",
+        "time_constraints": "Less than 30 minutes",
         "prerequisites": [
-            "Basic understanding of computer operations",
-            "Ability to install and use software",
-            "Introductory knowledge of programming concepts"
+            "Basic computer literacy",
+            "Ability to install Python",
+            "Introductory knowledge of running programs in a terminal or command prompt"
         ],
         "scope": [
-            "Python syntax basics",
-            "Printing output",
+            "Basic Python syntax",
+            "Printing to the console",
             "Running Python scripts",
-            "Setting up a development environment"
+            "Understanding file extensions",
+            "Command-line interaction"
         ],
         "feature_set": [
-            "Print 'Hello, World!' to standard output",
-            "Basic script structure"
+            "Display 'Hello, World!' in the console"
         ],
         "problem_statement_style": "scenario",
         "projects": [
             {
-                "project_name": "hello_world_application_python_core",
+                "project_name": "hello_world_app_python_core",
                 "tech_domain": "Backend Development",
                 "tech_subdomain": "Python Core",
                 "skill": "python_core",
@@ -53,38 +53,32 @@
                     }
                 },
                 "testing": {
-                    "unit_testing": {
-                        "framework": "unittest",
-                        "example": "Test output of print statement"
-                    },
+                    "unit_testing": null,
                     "integration_testing": null,
                     "end_to_end_or_api_testing": null
                 },
                 "scope": {
-                    "Foundational Concepts": [
-                        "Python installation",
-                        "Creating and running scripts"
-                    ],
-                    "Project-Specific Concepts": [
-                        "Printing 'Hello, World!'"
+                    "fundamentals": [
+                        "Basic script file creation (.py extension)",
+                        "Printing output to console",
+                        "Running a script with Python interpreter"
                     ]
                 },
                 "prerequisites": [
-                    "Python installed on local machine",
-                    "Text editor or IDE (e.g., Visual Studio Code, PyCharm)"
+                    "Python installed on the system (3.10 or higher)",
+                    "Simple text editor (e.g., Notepad, VS Code, Sublime Text)"
                 ],
                 "runtime_environment": {
-                    "IDE": "Visual Studio Code or PyCharm",
+                    "IDE": "Visual Studio Code or any plain text editor",
                     "OS Requirements": "Windows 10+, macOS Monterey+, Ubuntu 20.04+"
                 },
                 "learning_outcomes": [
-                    "Understand basic Python syntax",
-                    "Run a Python script from command line or IDE",
-                    "Gain confidence in first steps with Python"
+                    "Understand how to write and run a simple Python script",
+                    "Familiarity with Python print statement",
+                    "Experience running programs from the command line"
                 ],
                 "feature_set": [
-                    "Executable Python script",
-                    "Standard output printout"
+                    "Print 'Hello, World!' to standard output"
                 ],
                 "api_documentation": null,
                 "output_resource_type": "code",
@@ -92,19 +86,19 @@
             }
         ],
         "acceptance_criteria": [
-            "'Hello, World!' is printed to standard output upon execution",
-            "No runtime errors occur",
-            "Code follows standard Python conventions (PEP8 for this context)"
+            "A Python script exists named hello.py (or similar)",
+            "When the script is run, the output is exactly: Hello, World!",
+            "There are no runtime errors",
+            "No external libraries or frameworks are used"
         ],
         "deliverables": [
-            "hello_world.py script file",
-            "Optional: README file with instructions for running"
+            "A single Python .py file that prints 'Hello, World!' to the console"
         ],
         "need_research": "False",
         "learning_outcomes": [
-            "Set up and verify Python environment",
-            "Write and execute a simple Python script",
-            "Interpret standard output"
+            "Write a minimal, functional Python application",
+            "Gain confidence with Python syntax and fundamentals",
+            "Learn the process of writing, saving, and executing Python scripts"
         ],
         "learning_style": "guided",
         "assessment_type": null,
