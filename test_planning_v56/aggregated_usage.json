@@ -22,17 +22,6 @@
         }
     },
     {
-        "project_name": "planning",
-        "crew_name": "planning_crew",
-        "usage_metrics": {
-            "total_tokens": 4913,
-            "prompt_tokens": 4234,
-            "cached_prompt_tokens": 0,
-            "completion_tokens": 679,
-            "successful_requests": 1
-        }
-    },
-    {
         "execution_id": "d161e239-8fdb-46e7-8957-545a8bc684a1",
         "project_name": "test_planning_v56",
         "created_by": "ThanushreeS",
@@ -43,6 +32,6 @@
         "prompt": "A simple hello world application in python"
     },
     {
-        "Application_duration": 0.79
+        "Application_duration": 0.05
     }
 ]
