@@ -22,25 +22,25 @@
         }
     },
     {
-        "project_name": "planning",
-        "crew_name": "planning_crew",
+        "project_name": "hello_world_python_core",
+        "crew_name": "modules_and_activities_crew",
         "usage_metrics": {
-            "total_tokens": 4881,
-            "prompt_tokens": 4234,
+            "total_tokens": 4591,
+            "prompt_tokens": 4014,
             "cached_prompt_tokens": 0,
-            "completion_tokens": 647,
+            "completion_tokens": 577,
             "successful_requests": 1
         }
     },
     {
-        "project_name": "planning",
-        "crew_name": "problem_statement_crew",
+        "project_name": "hello_world_python_core",
+        "crew_name": "solution_crew",
         "usage_metrics": {
-            "total_tokens": 2471,
-            "prompt_tokens": 1523,
-            "cached_prompt_tokens": 0,
-            "completion_tokens": 948,
-            "successful_requests": 1
+            "total_tokens": 17657,
+            "prompt_tokens": 17094,
+            "cached_prompt_tokens": 3200,
+            "completion_tokens": 563,
+            "successful_requests": 9
         }
     },
     {
@@ -54,6 +54,6 @@
         "prompt": "A simple hello world application in python"
     },
     {
-        "Application_duration": 0.49
+        "Application_duration": 0.64
     }
 ]
